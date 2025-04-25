@@ -41,9 +41,9 @@ cp templates/* input
 ## Configuración
 
 1. Coloca el mensaje que quieres enviar en el archivo `mensajes.txt`.
-<br>
+
 2. Coloca en el archivo `telefonos.json` los números de teléfono que recibirán el mensaje.
-<br>
+
 3. Asegurate de haber iniciado sesión en WhatsApp Web, acceder para que se carguen todos los mensajes y luego cerrar la pestaña para evitar duplicidad de la misma.
 
 ## Ejecución
@@ -54,7 +54,7 @@ python src/main.py
 ```
 
 2. Uno por uno, se abrirá la pestaña en el navegador, se abrirá el chat con el número de teléfono correspondiente, se colocará el mensaje, se enviará y la pestaña se cerrará.
-<br>
+
 3. Para finalizar el servidor virtual una vez terminado de ejecutar el programa las veces que sea necesario.
 ```bash
 deactivate
