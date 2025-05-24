@@ -25,7 +25,7 @@ source ./venv/Scripts/activate
 
 3. Instala las dependencias.
 ```bash
-pip install -r requirements.txt
+pip install -r requirements/requirements.txt
 ```
 
 4. Copia los archivos de funcionamiento a la carpeta input.
